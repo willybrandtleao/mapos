@@ -61,8 +61,8 @@ $db_file = file_get_contents($db_file_path);
 $is_installed = strpos($db_file, "enter_hostname");
 
 $installed = null;
-if (!$is_installed) {
-    $installed = true;
-}
+//if (!$is_installed) {
+//    $installed = true;
+//}
 
 include "view/index.php";
