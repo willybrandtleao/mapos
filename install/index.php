@@ -62,7 +62,7 @@ $is_installed = strpos($db_file, "enter_hostname");
 
 $installed = null;
 //if (!$is_installed) {
-//    $installed = true;
+   $installed = true;
 //}
 
 include "view/index.php";
